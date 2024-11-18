@@ -1,0 +1,35 @@
+.sidebar {
+    width: 230px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar h2{
+    color: rgb(252, 244, 21);
+    text-decoration: none;
+    margin: 15px 0;
+    font-size:25px;
+}
+.sidebar a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 18px;
+}
+.sidebar a:hover, .sidebar a.active {
+    color: #FF6384;
+}
+.sidebar a.logout {
+    margin-top: 50vh;
+    color: #dc3545;
+}
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+    min-height: 100vh;
+}

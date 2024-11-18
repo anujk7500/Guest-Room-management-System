@@ -1,0 +1,112 @@
+/* Recent Bookings Table Styling */
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.booking-table th, .booking-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.booking-table th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.booking-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.booking-table td {
+    color: #333;
+}
+
+/* Action Button Styling */
+.booking-table .btn-edit, .booking-table .btn-delete {
+    padding: 6px 12px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-table .btn-edit {
+    background-color: #007BFF;
+}
+
+.booking-table .btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.booking-table .btn-delete {
+    background-color: #FF4136;
+}
+
+.booking-table .btn-delete:hover {
+    background-color: #c13028;
+}
+
+/* Hover effect on table rows */
+.booking-table tr:hover {
+    background-color: #e0f7fa;
+}
+.table-container {
+    padding: 20px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
